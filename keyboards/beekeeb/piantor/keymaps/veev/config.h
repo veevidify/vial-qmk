@@ -1,0 +1,21 @@
+/* keyboard uid */
+#define VIAL_KEYBOARD_UID {0xDC, 0x6D, 0x9C, 0x42, 0x53, 0x42, 0x75, 0x0F}
+
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 4 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 5 }
+
+/* default layer count */
+#define DYNAMIC_KEYMAP_LAYER_COUNT 10
+
+#ifndef HOLD_ON_OTHER_KEY_PRESS_PER_KEY
+#define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
+#endif
+#ifndef PERMISSIVE_HOLD_PER_KEY
+#define PERMISSIVE_HOLD_PER_KEY
+#endif
+
+#define TAPPING_TERM 300
+#define QUICK_TAP_TERM 0
+#define ONESHOT_TIMEOUT 2000
+#define DEBOUNCE 20
+#define MOUSEKEY_MAX_SPEED 5
