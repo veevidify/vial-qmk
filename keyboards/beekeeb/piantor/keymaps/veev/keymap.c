@@ -49,6 +49,11 @@ bool get_permissive_hold(uint16_t keycode, keyrecord_t *record) {
     case LT(1,KC_J):
       return true;
 
+    case LT(2,KC_F):
+      return true;
+    case LT(2,KC_J):
+      return true;
+
     // Do not select the hold action when another key is tapped.
     default:
       return QS.tapping & 1;
